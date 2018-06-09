@@ -1,7 +1,10 @@
+; StylusButtonGesture-AutoHotkey
+;https://github.com/PBW99/StylusButtonGesture-AutoHotkey
+;
 ;Forked From Surface Pro 3 AutoHotkey
 ; https://github.com/jonathanyip/Surface-Pro-3-AutoHotkey
-;
-;
+
+
 
 ; Set up our pen constants
 global PEN_NOT_HOVERING := 0x0      ; Pen is moved away from screen.
@@ -48,7 +51,11 @@ PenCallback(input, lastInput) {
 
     if (input = PEN_NOT_HOVERING) {
         if(RPressed){
-            MouseClick, right,g_oldX,g_oldY, 1, 0, U  ;
+            mouX :=0
+            mouY :=0
+            CvtPenCrd_To_MouseCrd(mouX,mouY)
+            OutputDebug, newmouse---%mouX%, %mouY%
+            MouseClick, right,mouX,mouY, 1, 0, U  ;
         
         g_PressNum:=0
         RPressed := false
@@ -117,8 +124,9 @@ PenCallback(input, lastInput) {
             {
                 g_PressNum += 1
                 if(g_PressNum > 1){
-
-                    MouseClick, middle
+                
+                ; 2BTN double Clicked
+                    Send, #{Tab}
                     g_PressNum = 0
                 }
             }else{
