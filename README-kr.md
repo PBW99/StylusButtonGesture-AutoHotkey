@@ -1,12 +1,20 @@
 # 윈도우 스타일러스(펜) 버튼 제스처.ahk
 2 in 1 태블릿 PC에서 버튼 Hovering시에 제스처를 사용가능하게 해주는 스크립트입니다.
 
+## Document
+[Korean](https://github.com/PBW99/StylusButtonGesture-AutoHotkey/blob/master/README-kr.md)
+
+[English](https://github.com/PBW99/StylusButtonGesture-AutoHotkey/blob/master/README.md)
+
 ## 목적
 윈도우에서는 마우스 제스처를 다양한 프로그램([StrokeIt](https://www.tcbmi.com/strokeit/), [GestureSign](https://www.microsoft.com/en-us/p/gesturesign/9n45wqvk2qqw))을 통해 사용할 수 있습니다. 하지만 스타일러스(펜)는 이와 같은 제스처가 동작하지 않기에 만들게 되었습니다. 스타일러스(펜) **Hovering**시에 마우스 제스처를 사용할 수 있게 하였습니다.
 
 
 ## 실행영상
 [![Alt text for your video](https://img.youtube.com/vi/J68ZjTOJFds/0.jpg)](https://www.youtube.com/watch?v=J68ZjTOJFds&feature=youtu.be)
+
+## 설치
+[AutoHotkey](https://autohotkey.com/)를 설치하시고, Pen.ahk를 실행하시면 됩니다. Pen.ahk스크립트는 [AHKHID.ahk](https://github.com/jleb/AHKHID)스크립트가 같은 폴더안에 있어야만 실행됩니다.
 
 ## 사용방법
 * Pen Hovering시에 Pen의 2번째 버튼을 누른 상태에서 마우스 제스처를 실행하면 됩니다. 마우스 제스처 프로그램의 버튼은 **오른쪽 클릭**을 기준으로 작성 되었습니다.
