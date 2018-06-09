@@ -6,7 +6,7 @@
 
 
 ## 실행영상
-<iframe width="560" height="315" src="https://www.youtube.com/embed/J68ZjTOJFds" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![Alt text for your video](https://img.youtube.com/vi/J68ZjTOJFds/0.jpg)](https://www.youtube.com/watch?v=J68ZjTOJFds&feature=youtu.be)
 
 ## 사용방법
 * Pen Hovering시에 Pen의 2번째 버튼을 누른 상태에서 마우스 제스처를 실행하면 됩니다. 마우스 제스처 프로그램의 버튼은 **오른쪽 클릭**을 기준으로 작성 되었습니다.
